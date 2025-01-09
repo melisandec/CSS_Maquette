@@ -1,0 +1,109 @@
+header {
+  background-color: rgb(161, 73, 127);
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+}
+body {
+  background-image: url(../img/background.png);
+}
+main {
+  background: url(../img/rainbow.png) no-repeat;
+  background-position: center top;
+  background-blend-mode: overlay;
+}
+.logo {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: larger;
+  font-style: italic;
+  margin-left: 20px;
+}
+nav {
+  text-transform: uppercase;
+  display: flex;
+  margin-right: 20px;
+}
+a {
+  padding: 10px;
+  color: inherit;
+  font-size: small;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h1 {
+  color: rgb(161, 73, 127);
+  text-align: center;
+  padding-top: 80px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.main-block {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 5px grey;
+  width: 72%;
+  height: 100%;
+  margin: auto;
+  padding: 1rem;
+}
+
+h2 {
+  color: rgb(161, 73, 127);
+  font-style: italic;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+h3 {
+  color: rgb(161, 73, 127);
+  font-style: italic;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.licornes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+figure {
+  margin: auto;
+  display: flex;
+  padding: 5px 0;
+  flex-flow: column;
+  position: relative;
+}
+figcaption {
+  background-color: rgba(0, 0, 0, 0.382);
+  color: white;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  font-size: large;
+  width: 100%;
+  bottom: 5px;
+  padding: 5px 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#nous-trouver h1,
+p {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.map {
+  display: flex;
+}
+.p-10 {
+  padding: 10px;
+}
+
+a:hover {
+  background-color: rgb(241, 80, 214);
+}
+i {
+  margin-right: 10px;
+}
